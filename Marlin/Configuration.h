@@ -534,9 +534,10 @@
   //#define PID_BED_DEBUG // Sends debug data to the serial port.
 
   //My Ender 3 24V Bed
-  #define DEFAULT_bedKp 10
-  #define DEFAULT_bedKi 0.023
-  #define DEFAULT_bedKd 305.4
+  //From PIDAUTOTUNE at 50C
+  #define DEFAULT_bedKp 8.63
+  #define DEFAULT_bedKi 1.68
+  #define DEFAULT_bedKd 29.52
 
   //120V 250W silicone heater into 4mm borosilicate (MendelMax 1.5+)
   //from pidautotune
